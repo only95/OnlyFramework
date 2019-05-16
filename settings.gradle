@@ -1,1 +1,1 @@
-include ':app', ':library', ':qrcodezxing'
+include ':app', ':qrcodezxing', ':library'

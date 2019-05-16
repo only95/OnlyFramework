@@ -35,6 +35,7 @@ public abstract class BaseActivity<V, T extends BasePresenter<V>> extends AppCom
 
         //手动获取权限
         PermissionListener(Permission.CAMERA);
+        //手动获取读写权限
         PermissionListener(Permission.Group.STORAGE);
     }
 
