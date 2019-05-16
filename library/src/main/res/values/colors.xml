@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textblack">#4d4d4d</color>
+    <color name="grey_text_color_normal">#8A8A8A</color>
+    <color name="SearchFont">#CCCCCC</color>
+    <color name="red">#d54a43</color>
+    <!-- 红色 -->
+    <color name="gray">#88808080</color>
+    <!-- 灰色 -->
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="trantracent">#22000000</color>
+
+
+    <color name="ZyColor">#55acee</color>
+    <color name="trans">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+</resources>

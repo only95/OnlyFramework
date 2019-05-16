@@ -10,6 +10,7 @@ import java.lang.reflect.Field;
 
 /**
  *
+ * 设置BottomNavigationView的item数量占用比率一致
  */
 
 public class BottomNavigationViewHelper {

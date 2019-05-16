@@ -24,7 +24,6 @@
         <activity android:name=".activity.ExternalStorageDemo"/>
         <activity android:name=".activity.QRCodeDemo"/>
         <activity android:name=".activity.SQLiteDatabaseDemo"/>
-        <activity android:name=".activity.SurfaceViewDemo"/>
         <!--扫描二维码-->
         <activity android:name="framework.only.com.qrcodezxing.CaptureActivity"/>
         <activity android:name="framework.only.com.qrcodezxing.ResultActivity"/>
