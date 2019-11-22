@@ -6,7 +6,7 @@ import android.widget.GridView;
 
 /**
  * Created by Administrator on 2018/8/31.
- *解决ScrollView嵌套GridView
+ * 解决ScrollView嵌套GridView ,解决嵌套Grideview的显示不完全的问题
  */
 
 public class NoScrollGridView extends GridView{

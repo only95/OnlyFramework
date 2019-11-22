@@ -2,11 +2,11 @@ package com.only.framework.model;
 
 import android.support.v4.app.Fragment;
 
-import com.only.framework.fragment.Fragment1;
-import com.only.framework.fragment.Fragment2;
-import com.only.framework.fragment.Fragment3;
-import com.only.framework.fragment.Fragment4;
-import com.only.framework.fragment.Fragment5;
+import com.only.framework.view.fragment.Fragment1;
+import com.only.framework.view.fragment.Fragment2;
+import com.only.framework.view.fragment.Fragment3;
+import com.only.framework.view.fragment.Fragment4;
+import com.only.framework.view.fragment.Fragment5;
 import com.only.framework.model.Interface.IMainModel;
 
 import java.util.ArrayList;

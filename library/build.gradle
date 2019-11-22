@@ -60,7 +60,7 @@ dependencies {
     api 'org.greenrobot:eventbus:3.0.0'
     //默认提供三种加载效果
     api 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4-7'
-//提供了多种现成的刷新Header库，可以直接用，如不需要可以不集成
+   //提供了多种现成的刷新Header库，可以直接用，如不需要可以不集成
     api 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.4-7'
     //fastjson
     implementation 'com.facebook.fresco:fresco:1.5.0'

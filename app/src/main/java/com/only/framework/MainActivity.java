@@ -6,15 +6,18 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.View;
 
 import java.util.List;
 
 
-import com.only.framework.adapter.FragmentViewPagerAdapter;
+import com.only.framework.view.adapter.FragmentViewPagerAdapter;
 import com.only.framework.presenter.MainPresenter;
 import com.only.framework.utlis.BottomNavigationViewHelper;
 import com.only.framework.view.BaseActivity;
 import com.only.framework.view.Interface.IMainView;
+import com.only.framework.library.view.NoScrollViewPager;
 
 public class MainActivity extends BaseActivity<IMainView, MainPresenter<IMainView>>
         implements IMainView, BottomNavigationView.OnNavigationItemSelectedListener {
@@ -22,7 +25,7 @@ public class MainActivity extends BaseActivity<IMainView, MainPresenter<IMainVie
 
     private BottomNavigationView navigationView;
     private FragmentViewPagerAdapter adapter;
-    private ViewPager viewPager;
+    private NoScrollViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,12 +37,12 @@ public class MainActivity extends BaseActivity<IMainView, MainPresenter<IMainVie
         basePresenter.setAddFragment();//调用Presenter层中的setAddFragment方法
 
         //禁止划动
-//        viewPager.setOnTouchListener(new View.OnTouchListener() {
-//            @Override
-//            public boolean onTouch(View view, MotionEvent motionEvent) {
-//                return true;
-//            }
-//        });
+        viewPager.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                return true;
+            }
+        });
 
     }
 
@@ -59,6 +62,7 @@ public class MainActivity extends BaseActivity<IMainView, MainPresenter<IMainVie
     private void initView() {
         viewPager = $(R.id.viewPager_layout);
         navigationView = $(R.id.navigationView);
+
     }
 
     /**

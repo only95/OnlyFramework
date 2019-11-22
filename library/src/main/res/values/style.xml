@@ -78,4 +78,12 @@
         <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
     </style>
 
+    <!--自动换行的LinearLayout!-->
+    <style name="WarpLinearLayoutDefault">
+        <item name="grivate">left</item>
+        <item name="horizontal_Space">@dimen/dp_10</item>
+        <item name="vertical_Space">@dimen/dp_10</item>
+        <item name="isFull">false</item>
+    </style>
+
 </resources>
